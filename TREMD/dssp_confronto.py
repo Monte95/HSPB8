@@ -110,12 +110,12 @@ ax2.set_title("", size=14)
 # leg1 = ax1.legend(prop={"size": 16}, loc='upper center')
 # leg2 = ax2.legend(prop={"size": 16})
 
-mng = plt.get_current_fig_manager()
-mng.full_screen_toggle()
+# mng = plt.get_current_fig_manager()
+# mng.full_screen_toggle()
 
 plt.show(block=False)
 
-g.figure.savefig("secstr_comparison_CD_dssp_encodermap_paper.png", dpi=320)
+# g.figure.savefig("secstr_comparison_CD_dssp_encodermap_paper.png", dpi=320)
 
 
 
